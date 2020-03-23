@@ -42,7 +42,7 @@ export default function Dashboard() {
   }, [user]);
 
   if (!isAuthLoading && (!user || !user.email)) {
-    return <Redirect to="/signup/dashboard" />;
+    return <Redirect to="/signin/dashboard" />;
   }
 
   const Notification = (props) => {
