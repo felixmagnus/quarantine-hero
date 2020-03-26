@@ -44,6 +44,15 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### Testing
+Tests are written and executed with [cypress](https://www.cypress.io). All tests are stored in the `/cypress` directory. 
+You can run the tests locally by executing `yarn run cypress open`.
+When contributing 
+please make sure that:
+
+- All new features are covered by some kind of test
+- Existing tests do not break
+
 ## Backend development
 
 The following steps will explain how to set up your own Google Firebase project to develop and test cloud functions. Those cloud functions, together with the Firebase document store `firestore`, provide the backend of our project.
